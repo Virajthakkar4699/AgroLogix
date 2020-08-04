@@ -1,0 +1,11 @@
+select *
+from INFORMATION_SCHEMA.COLUMNS
+where TABLE_NAME='crop_master'
+
+select *
+from INFORMATION_SCHEMA.COLUMNS
+where TABLE_NAME='plotmaster'
+
+sp_help empattmaster
+
+SELECT * FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS
